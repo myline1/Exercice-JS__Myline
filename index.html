@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exo-JS</title>
+</head>
+<body>
+    <h2>Exercice 01:</h2>
+    <script>
+        // création des variables
+        let num = 1;
+        let chaine = "you";
+        let bool = true;
+        let a = null ;
+        let b = undefined;
+    
+        // affectation de l'age et nom plus concarténation
+        let age = 42;
+        let nom = "Myline";
+        let iden = `Mon nom est ${nom} et j'ai ${age} ans`;
+
+        // affichage des types dans la console
+       
+        console.log (typeof num, typeof chaine, typeof bool, typeof a, typeof b, typeof nom, typeof age, typeof iden);
+
+        // création d'une fonction d'affichage
+        function afficherInfoVariable(c){
+            console.log ("c");
+            console.log(c, typeof c);
+        }
+
+        afficherInfoVariable (num);
+        afficherInfoVariable (chaine);
+        afficherInfoVariable (bool);
+        afficherInfoVariable (a);
+        afficherInfoVariable (b);
+
+        // 2. ``
+        function  estPair(n , r){
+            if (n %2 === 0){
+                console.log("true")
+            }
+            else{
+                console.log("false")
+            }  
+        }
+
+        estPair(4);  
+        estPair(7);
+        estPair(10);
+g    </script>
+</body>
+</html>
